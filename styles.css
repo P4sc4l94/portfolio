@@ -1,0 +1,380 @@
+/*
+* GENERAL STYLES
+*/
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", Verdana, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 100%;
+  position: relative;
+  /* background-color: whitesmoke; */
+}
+
+header {
+  padding-top: 50px;
+}
+
+h1 {
+  font-family: "Zilla Slab", "Georgia", "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+  font-size: 3.5rem;
+  line-height: 1;
+  /* background-color: thistle; */
+}
+
+h2 {
+  font-family: "Zilla Slab", "Georgia", "Times New Roman", serif;
+  font-weight: 700;
+  letter-spacing: 0.15rem;
+  font-size: 2.5rem;
+  line-height: 1;
+  /* background-color: thistle; */
+}
+
+h3 {
+  font-family: "Zilla Slab", "Georgia", "Times New Roman", serif;
+  font-weight: 500;
+  color: #0076a0;
+  letter-spacing: 0.15rem;
+  font-size: 1.95rem;
+}
+
+p {
+  font-family: "Open Sans", Verdana, Arial, sans-serif;
+  line-height: 1.75rem;
+  letter-spacing: 0.05rem;
+}
+
+ul,
+li {
+  font-family: "Open Sans", Verdana, Arial, sans-serif;
+  line-height: 1.75rem;
+  letter-spacing: 0.05rem;
+}
+
+img {
+  width: 100%;
+}
+
+.dash-blue {
+  letter-spacing: 0.2rem;
+  color: #0076a0;
+}
+
+.border-style {
+  padding-left: 10px;
+  border-left: 8px solid #56a38a;
+}
+
+.border-subhead {
+  padding-left: 18px;
+}
+
+.lead {
+  color: lightseagreen;
+}
+
+/*
+* INTRO SECTION
+*/
+
+.intro-container {
+  background-color: steelblue;
+  background-image: url("img/bg-abstract.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.intro-container img {
+  width: 80%;
+  /* background-color: thistle; */
+}
+
+.intro-txt-container {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+/*
+* NAVBAR
+*/
+
+.mainNav {
+  color: whitesmoke;
+  font-family: "Montserrat", Verdana, Arial, sans-serif;
+  background-color: whitesmoke;
+  color: gray;
+  /* border-bottom: 2px solid gray; */
+}
+
+.mainNav a,
+.mainNav a:visited {
+  color: gray;
+}
+
+.mainNav ul li {
+  /* background-color: teal; */
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  padding: 0 10px;
+  margin: 0 10px;
+  font-weight: 700;
+}
+
+.mainNav ul li:hover,
+.mainNav a:hover {
+  color: #0076a0;
+}
+
+.mainNav ul li:active,
+.mainNav a:active {
+  color: #4bafdc;
+}
+
+.brand-txt {
+  font-family: "Montserrat", Verdana, Arial, sans-serif;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 0.05rem;
+}
+
+/*
+* HOME PAGE GALLERY
+*/
+.work-title {
+  font-family: "Montserrat", Verdana, Arial, sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.small-date {
+  font-family: "Montserrat", Verdana, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  letter-spacing: 0.05rem;
+}
+
+.home-img-container {
+  /* height: 600px;
+  width: 600px; */
+  /* background: thistle; */
+  position: relative;
+}
+
+.home-img-container img {
+  width: 100%;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 128, 128, 0.85);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+
+.mobile-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 128, 128, 0.9);
+  display: none;
+}
+
+.mobile-overlay-txt {
+  font-size: 1em;
+  font-weight: bold;
+  letter-spacing: 0.02rem;
+  /* background-color: tomato; */
+  width: 100%;
+  color: whitesmoke;
+  position: relative;
+  top: 20%;
+}
+
+.mobile-overlay-link,
+.mobile-overlay-link:visited {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+.mobile-overlay-link:hover {
+  color: wheat;
+  text-decoration: none;
+}
+
+.mobile-overlay-link:active {
+  color: gold;
+  text-decoration: underline;
+}
+
+.home-img-container:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.overlay-text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay-btn {
+  width: 100px;
+  text-align: center;
+}
+
+/*
+* ABOUT SECTION
+*/
+.about-me-container {
+  background-image: url("img/bg-triangle-blue.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.progress {
+  background-color: darkslategray;
+}
+
+.progress-bar {
+  background-color: #56a38a;
+}
+
+/*
+* GALLERY PAGE(S)
+*/
+
+/*
+* CONTACT US
+*/
+
+.contact-container {
+  width: 100%;
+  background-color: teal;
+  /* background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%); */
+  background-image: url("img/bg-dark-blue.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-container {
+  background-color: whitesmoke;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+    rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  margin: 0 auto;
+  width: 40%;
+  min-width: 350px;
+}
+
+.card-container-body {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/*
+* FOOTER
+*/
+footer {
+  height: 75px;
+}
+
+/*
+* MEDIA QUERIES
+*/
+@media only screen and (max-width: 576px) {
+  /* x-small */
+  .mobile-overlay {
+    display: inline-block;
+  }
+  .overlay {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* small */
+  .gallery-main-content {
+    padding-left: auto;
+  }
+
+  .gallery-text-container {
+    position: static;
+    /* background-color: teal; */
+  }
+  .gallery-text {
+    position: static;
+    /* bottom: 0; */
+    /* background-color: thistle; */
+  }
+
+  .about-me-container {
+    background-image: none;
+  }
+
+  .skills-container {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  /* medium */
+  .intro-text {
+    margin-top: 2rem;
+    width: 100%;
+  }
+
+  .intro-txt-container img {
+    max-width: 350px;
+  }
+
+  .intro-txt-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+
+  .gallery-carousel {
+    height: auto;
+    min-height: 400px;
+    margin-bottom: 3rem;
+  }
+
+  .gallery-text-container {
+    position: static;
+    /* background-color: teal; */
+  }
+  .gallery-text {
+    position: static;
+    /* bottom: 0; */
+    /* background-color: thistle; */
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  /* large */
+}

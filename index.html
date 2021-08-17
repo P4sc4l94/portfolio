@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Site</title>
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,700;1,300;1,700&family=Zilla+Slab:wght@500;700&display=swap" rel="stylesheet">  
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top mainNav" >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><span class="brand-txt fw-bold">Kelsey <span class="fw-bold dash-blue">//</span> Hood</span></a>
+      <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon navbar-light"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Web Development</a> <!-- YelpCamp, MCS Site, Vue.js Shop-->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">UX/UI</a> <!-- Arabica Site, UMBC50 -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Graphic Design</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header class="container-fluid pb-5 intro-container">
+    <div class="py-3"></div>
+    <div class="row mx-auto"> <!-- INTRO -->
+      <!-- <div class="col-md-7 text-center">
+        <img src="img/bear-icon-gradient.svg" alt="Kelsey's bear logo" class="img-fluid">
+      </div> -->
+      <div class="col-lg-8 col-md-12 mx-auto">
+        <div class="intro-txt-container">
+          <div class="row py-3">
+            <div class="col-lg-5 col-md-6 text-center mx-auto">
+              <img src="img/img-hood-logotype.svg" alt="Kelsey's bear logo" class="img-fluid">
+            </div>
+            <div class="col-md-7 col-sm-12 intro-text mx-auto">
+              <h1 class="border-style">Hello.</h1>
+              <p class="mt-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum consequuntur, veritatis et reiciendis architecto magni nostrum neque at. Dolor aliquid possimus exercitationem voluptatum expedita nobis, suscipit distinctio molestias earum doloremque.</p>
+              <a href="#" class="btn btn-dark mt-3">Download CV</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="py-3"></div>
+  </header>
+  <!-- <div class="mx-auto mt-5" style="border-bottom: 5px solid teal; width:30px"></div> -->
+  <main class="container-fluid main-content mt-5">
+    <!-- ABOUT ME -->
+    <div class="container-fluid mb-5 about-me-container">
+      <h2 class="mb-4 text-center">About Me</h2>
+      <div class="row container-fluid mx-auto"> <!-- ROW 1 -->
+        <div class="col-md-6 mx-auto"> <!-- EDUCATION -->
+          <h3>Education</h3>
+              <p>
+                <span class="fw-bold">University of Maryland, Baltimore County</span><br>
+                Baltimore, MD<br>
+                Bachelor of Arts in Graphic Design &#8212; MAY 2018
+              </p>
+              <p>
+                <span class="fw-bold">Anne Arundel Community College</span><br>
+                Arnold, MD<br>
+                Certificate in Graphic Design &#8212; DEC 2016
+              </p>
+              <p>
+                <span class="fw-bold">Howard Community College</span><br>
+                Columbia, MD<br>
+                Associate of Arts in General Studies &#8212; DEC 2013
+              </p>
+        </div>
+        <div class="col-md-6 mx-auto"> <!-- OTHER EDUCATION -->
+          <h3>Other Education</h3>
+          <p>
+            <span class="fw-bold">Udemy</span><br>
+            Web Developer Bootcamp<br>
+            JUN 2021
+          </p>
+          <p>
+            <span class="fw-bold">W3Schools</span><br>
+            Certified Front End Developer<br>
+            JAN 2021
+          </p>
+          <p>
+            <span class="fw-bold">UMBC Training Centers</span><br>
+            Front End Developer Suite<br>
+            MAR 2019
+          </p>
+        </div> 
+      </div>
+      <div class="row container-fluid mt-5 mx-auto"> <!-- ROW 2 -->
+        <div class="row">
+          <div class="col-md-6"> <!-- EXPERIENCE -->
+            <h3>Experience</h3>
+            <div>
+              <p>
+                <span class="fw-bold">Graphic Designer &amp; Social Media Specialist</span><br>
+                Anne Arundel Community College<br>
+                AUG 2019 &#8211; Current<br>
+              </p>
+              <p>
+                <span class="fw-bold">Junior Graphic Designer</span><br>
+                Omega Digital Press, Inc.<br>
+                AUG 2019 &#8211; Current<br>
+              </p>
+              <p>
+                <span class="fw-bold">Web Technician &amp; Graphic Designer</span><br>
+                The Erickson School, UMBC<br>
+                JUN 2016 &#8211; DEC 2018<br>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 skills-container"> <!-- SKILLS -->
+            <h3>Skills</h3>
+            <div class="row">
+              <div class="col-md-6"> <!-- SKILLS COL-1 -->
+                <div class="mb-4"> <!-- HTML -->
+                  <p class="pb-0 mb-0 fw-bold">HTML</p>
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                  </div>
+                </div>
+                <div class="mb-4"> <!-- CSS -->
+                  <p class="pb-0 mb-0 fw-bold">CSS</p>
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                  </div>
+                </div>
+                <div class="mb-4"> <!-- JAVASCRIPT -->
+                  <p class="pb-0 mb-0 fw-bold">JavaScript</p>
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar" role="progressbar" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                  </div>
+                </div>
+                <div class="mb-4"> <!-- JAVASCRIPT -->
+                  <p class="pb-0 mb-0 fw-bold">Bootstrap</p>
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                  </div>
+                </div>
+                <div class="mb-4"> <!-- GITHUB -->
+                  <p class="pb-0 mb-0 fw-bold">GitHub</p>
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6"> <!-- SKILLS COL-2-->
+                <div class="mb-4"> <!-- PHOTOSHOP -->
+                  <p class="pb-0 mb-0 fw-bold">Photoshop</p>
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                  </div>
+                </div>
+                <div class="mb-4"> <!-- INDESIGN -->
+                  <p class="pb-0 mb-0 fw-bold">InDesign</p>
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                  </div>
+                </div>
+                <div class="mb-4"> <!-- ILLUSTRATOR -->
+                  <p class="pb-0 mb-0 fw-bold">Illustrator</p>
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                  </div>
+                </div>
+                <div class="mb-4"> <!-- SKETCH -->
+                  <p class="pb-0 mb-0 fw-bold">Sketch</p>
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar" role="progressbar" style="width: 60%" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                  </div>
+                </div>
+                <div class="mb-4"> <!-- ADOBE XD -->
+                  <p class="pb-0 mb-0 fw-bold">Adobe XD</p>
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- WEB DEVELOPMENT -->
+    <h2 class="text-center mb-5">Web Development <span class="fw-bold dash-blue">//</span> UX/UI</h2>
+    <div class="container-fluid row mx-auto text-center mb-5">
+      <div class="col-lg-3 col-md-6 mb-3 home-img-container">
+        <img loading="lazy" class="img-fluid" src="img/img-shirt-apple.jpg" alt="...">
+        <div class="overlay"> <!-- OVERLAY -->
+          <div class="overlay-text">
+            <h3 class="work-title">WORK TITLE</h3>
+            <p class="small-date">2020</p>
+            <a href="image_TEMP.html" class="btn btn-light overlay-btn">View</a>
+          </div>
+        </div>
+        <div class="mobile-overlay"> <!-- MOBILE OVERLAY -->
+          <div class="mobile-overlay-txt">
+            <p class="">WORK TITLE // 2020 // <a href="#" class="mobile-overlay-link">View</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-3 home-img-container">
+        <img loading="lazy" class="img-fluid" src="img/img-mcs-thumbnail.jpg" alt="Thumbnail of the MCS About page on a computer screen">
+        <div class="overlay"> <!-- OVERLAY -->
+          <div class="overlay-text">
+            <h3 class="work-title">M.C.S.</h3>
+            <p class="small-date">2021</p>
+            <a href="#" class="btn btn-light overlay-btn">View</a>
+          </div>
+        </div>
+        <div class="mobile-overlay"> <!-- MOBILE OVERLAY -->
+          <div class="mobile-overlay-txt">
+            <p class="">M.C.S.  // 2021 // <a href="#" class="mobile-overlay-link">View</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-3 home-img-container">
+        <img loading="lazy" class="img-fluid" src="img/img-shirt-apple.jpg" alt="...">
+        <div class="overlay"> <!-- OVERLAY -->
+          <div class="overlay-text">
+            <h3 class="work-title">WORK TITLE</h3>
+            <p class="small-date">2020</p>
+            <a href="#" class="btn btn-light overlay-btn">View</a>
+          </div>
+        </div>
+        <div class="mobile-overlay"> <!-- MOBILE OVERLAY -->
+          <div class="mobile-overlay-txt">
+            <p class="">WORK TITLE // 2020 // <a href="#" class="mobile-overlay-link">View</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-3 home-img-container">
+        <img loading="lazy" class="img-fluid" src="img/img-shirt-apple.jpg" alt="...">
+        <div class="overlay"> <!-- OVERLAY -->
+          <div class="overlay-text">
+            <h3 class="work-title">WORK TITLE</h3>
+            <p class="small-date">2020</p>
+            <a href="#" class="btn btn-light overlay-btn">View</a>
+          </div>
+        </div>
+        <div class="mobile-overlay"> <!-- MOBILE OVERLAY -->
+          <div class="mobile-overlay-txt">
+            <p class="">WORK TITLE // 2020 // <a href="#" class="mobile-overlay-link">View</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- GRAPHIC DESIGN -->
+    <h2 class="text-center mb-5">Graphic Design</h2>
+    <div class="container-fluid row mx-auto text-center mb-5">
+      <div class="col-lg-3 col-md-6 mb-3 home-img-container">
+        <img loading="lazy" class="img-fluid" src="img/img-shirt-apple.jpg" alt="...">
+        <div class="overlay"> <!-- OVERLAY -->
+          <div class="overlay-text">
+            <h3 class="work-title">WORK TITLE</h3>
+            <p class="small-date">2020</p>
+            <a href="image_TEMP.html" class="btn btn-light overlay-btn">View</a>
+          </div>
+        </div>
+        <div class="mobile-overlay"> <!-- MOBILE OVERLAY -->
+          <div class="mobile-overlay-txt">
+            <p class="">WORK TITLE // 2020 // <a href="#" class="mobile-overlay-link">View</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-3 home-img-container">
+        <img loading="lazy" class="img-fluid" src="img/img-shirt-apple.jpg" alt="...">
+        <div class="overlay"> <!-- OVERLAY -->
+          <div class="overlay-text">
+            <h3 class="work-title">WORK TITLE</h3>
+            <p class="small-date">2020</p>
+            <a href="#" class="btn btn-light overlay-btn">View</a>
+          </div>
+        </div>
+        <div class="mobile-overlay"> <!-- MOBILE OVERLAY -->
+          <div class="mobile-overlay-txt">
+            <p class="">WORK TITLE // 2020 // <a href="#" class="mobile-overlay-link">View</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-3 home-img-container">
+        <img loading="lazy" class="img-fluid" src="img/img-shirt-apple.jpg" alt="...">
+        <div class="overlay"> <!-- OVERLAY -->
+          <div class="overlay-text">
+            <h3 class="work-title">WORK TITLE</h3>
+            <p class="small-date">2020</p>
+            <a href="#" class="btn btn-light overlay-btn">View</a>
+          </div>
+        </div>
+        <div class="mobile-overlay"> <!-- MOBILE OVERLAY -->
+          <div class="mobile-overlay-txt">
+            <p class="">WORK TITLE // 2020 // <a href="#" class="mobile-overlay-link">View</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-3 home-img-container">
+        <img loading="lazy" class="img-fluid" src="img/img-shirt-apple.jpg" alt="...">
+        <div class="overlay"> <!-- OVERLAY -->
+          <div class="overlay-text">
+            <h3 class="work-title">WORK TITLE</h3>
+            <p class="small-date">2020</p>
+            <a href="#" class="btn btn-light overlay-btn">View</a>
+          </div>
+        </div>
+        <div class="mobile-overlay"> <!-- MOBILE OVERLAY -->
+          <div class="mobile-overlay-txt">
+            <p class="">WORK TITLE // 2020 // <a href="#" class="mobile-overlay-link">View</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- CONTACT -->
+  <div class="row container-fluid mx-auto contact-container">
+    <div class="mx-auto py-5">
+      <div class="my-5 card-container">
+        <div class="card-container-body py-5">
+          <h2 class="border-style">Contact Me.</h2>
+          <div style="padding-left: 18px;">
+            <h3 class="mb-2">Interested in knowing more?</h3>
+            <p class="mt-3 pb-0 mb-0 fw-bold"><i>I would love to chat!</i></p>
+            <p><span>[img]</span> kelseymhood@gmail.com <br>
+            <span>[img]</span> Connect with me on LinkedIn!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <footer class="container-fluid bg-dark text-muted">
+    <div class="container pt-4 mx-auto text-center">
+      <p class="fs-5">Kelsey Hood</p>
+    </div>
+  </footer>
+</body>
+</html>
