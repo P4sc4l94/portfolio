@@ -105,6 +105,13 @@ img {
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 
+.cv-btn {
+  background-color: #0076a0;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
 /*
 * NAVBAR
 */
@@ -181,7 +188,7 @@ img {
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: rgba(0, 128, 128, 0.85);
+  background-color: rgba(0, 128, 128, 0.95);
   overflow: hidden;
   width: 100%;
   height: 0;
@@ -194,7 +201,7 @@ img {
   left: 0;
   width: 100%;
   height: 3rem;
-  background-color: rgba(0, 128, 128, 0.9);
+  background-color: rgba(0, 128, 128, 0.95);
   display: none;
 }
 
@@ -245,6 +252,13 @@ img {
 .overlay-btn {
   width: 100px;
   text-align: center;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+
+.overlay-btn:hover {
+  background-color: wheat;
 }
 
 /*
@@ -268,6 +282,12 @@ img {
 /*
 * GALLERY PAGE(S)
 */
+.view-btn {
+  background-color: #56a38a;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
 
 /*
 * CONTACT US
@@ -301,7 +321,7 @@ img {
 * FOOTER
 */
 footer {
-  height: 75px;
+  height: 90px;
 }
 
 /*
