@@ -87,7 +87,7 @@ img {
 
 .intro-container {
   background-color: steelblue;
-  background-image: url("img/bg-abstract.jpg");
+  background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1629691241/portfolio/bg-abstract_iqul2g.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -279,6 +279,23 @@ img {
   background-color: #56a38a;
 }
 
+.skills-list-container {
+  width: 100%;
+}
+
+.skills-list-item {
+  width: 17%;
+  padding-bottom: 1rem;
+  letter-spacing: 0;
+  font-size: 0.7rem;
+  filter: grayscale(100%);
+  transition: filter 0.2s;
+}
+
+.skills-list-item:hover {
+  filter: grayscale(0%);
+}
+
 /*
 * GALLERY PAGE(S)
 */
@@ -297,7 +314,7 @@ img {
   width: 100%;
   background-color: teal;
   /* background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%); */
-  background-image: url("img/bg-dark-blue.jpg");
+  background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1629691241/portfolio/bg-dark-blue_tcrdno.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -327,39 +344,8 @@ footer {
 /*
 * MEDIA QUERIES
 */
-@media only screen and (max-width: 576px) {
-  /* x-small */
-  .mobile-overlay {
-    display: inline-block;
-  }
-  .overlay {
-    display: none;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  /* small */
-  .gallery-main-content {
-    padding-left: auto;
-  }
-
-  .gallery-text-container {
-    position: static;
-    /* background-color: teal; */
-  }
-  .gallery-text {
-    position: static;
-    /* bottom: 0; */
-    /* background-color: thistle; */
-  }
-
-  .about-me-container {
-    background-image: none;
-  }
-
-  .skills-container {
-    margin-top: 3rem;
-  }
+@media only screen and (max-width: 1200px) {
+  /* large */
 }
 
 @media only screen and (max-width: 992px) {
@@ -393,8 +379,55 @@ footer {
     /* bottom: 0; */
     /* background-color: thistle; */
   }
+
+  .skills-list-item {
+    width: 25%;
+  }
 }
 
-@media only screen and (max-width: 1200px) {
-  /* large */
+@media only screen and (max-width: 768px) {
+  /* small */
+  .gallery-main-content {
+    padding-left: auto;
+  }
+
+  .gallery-text-container {
+    position: static;
+    /* background-color: teal; */
+  }
+  .gallery-text {
+    position: static;
+    /* bottom: 0; */
+    /* background-color: thistle; */
+  }
+
+  .about-me-container {
+    background-image: none;
+  }
+
+  .skills-container {
+    margin-top: 2rem;
+  }
+
+  .skills-list-item {
+    width: 30%;
+    max-width: 150px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  /* x-small */
+  .mobile-overlay {
+    display: inline-block;
+  }
+  .overlay {
+    display: none;
+  }
+
+  .skills-list-item {
+    width: 50%;
+    max-width: 150px;
+    margin: 0 auto;
+  }
 }
