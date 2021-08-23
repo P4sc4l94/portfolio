@@ -296,6 +296,10 @@ img {
   filter: grayscale(0%);
 }
 
+.experience-container {
+  margin-top: 1rem;
+}
+
 /*
 * GALLERY PAGE(S)
 */
@@ -406,13 +410,16 @@ footer {
   }
 
   .skills-container {
-    margin-top: 2rem;
+    margin-top: 5px;
   }
 
   .skills-list-item {
     width: 30%;
     max-width: 150px;
     margin: 0 auto;
+  }
+  .experience-container {
+    margin-top: 5px;
   }
 }
 
