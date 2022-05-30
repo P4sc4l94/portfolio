@@ -87,9 +87,21 @@ img {
 
 .intro-container {
   background-color: steelblue;
-  background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1629691241/portfolio/bg-abstract_iqul2g.jpg");
+  background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653950290/portfolio/bg-blueWave-600x800_z9m7rq.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: center bottom;
+}
+@media screen and (min-width: 600px) {
+  .intro-container { background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653950290/portfolio/bg-blueWave-960x960_kumrgc.jpg"); }
+}
+@media screen and (min-width: 960px) {
+  .intro-container { background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653950290/portfolio/bg-blueWave-1200x800_pjhy87.jpg"); }
+}
+@media screen and (min-width: 1200px) {
+  .intro-container { background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653950290/portfolio/bg-blueWave-1500x750_rkkvly.jpg"); }
+}
+@media screen and (min-width: 1400px) {
+  .intro-container { background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653950290/portfolio/bg-blueWave-3000x1500_zyavmx.jpg"); }
 }
 
 .intro-container img {
@@ -266,10 +278,12 @@ img {
 * ABOUT SECTION
 */
 .about-me-container {
-  background-image: url("img/bg-triangle-blue.svg");
+  // background-image: url("img/bg-triangle-blue.svg");
+  background-color: white;
   background-size: contain;
   background-repeat: no-repeat;
   background-position: bottom right;
+  padding-left: 1rem;
 }
 
 .progress {
@@ -319,9 +333,21 @@ img {
   width: 100%;
   background-color: teal;
   /* background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%); */
-  background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1629691241/portfolio/bg-dark-blue_tcrdno.jpg");
+  background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653951118/portfolio/bg-dark-blue-600x800_sfpwd0.jpg");
   background-size: cover;
   background-position: center;
+}
+@media screen and (min-width: 600px) {
+  .contact-container { background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653951118/portfolio/bg-dark-blue-960x960_jh48uo.jpg"); }
+}
+@media screen and (min-width: 960px) {
+  .contact-container { background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653951118/portfolio/bg-dark-blue-1200x600_ezlltw.jpg"); }
+}
+@media screen and (min-width: 1200px) {
+  .contact-container { background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653951118/portfolio/bg-dark-blue-1500x750_q5v3zw.jpg"); }
+}
+@media screen and (min-width: 1400px) {
+  .contact-container { background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653951118/portfolio/bg-dark-blue-3000x1500_lzukve.jpg"); }
 }
 
 .card-container {
@@ -390,7 +416,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   /* small */
   .gallery-main-content {
     padding-left: auto;
@@ -406,9 +432,9 @@ footer {
     /* background-color: thistle; */
   }
 
-  .about-me-container {
-    background-image: none;
-  }
+  // .about-me-container {
+  //   background-image: none;
+  // }
 
   .skills-container {
     margin-top: 5px;
