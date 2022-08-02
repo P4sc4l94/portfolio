@@ -19,6 +19,9 @@ body {
 header {
   padding-top: 50px;
 }
+main {
+  position: relative;
+}
 
 h1 {
   font-family: "Zilla Slab", "Georgia", "Times New Roman", serif;
@@ -315,6 +318,9 @@ img {
   filter: grayscale(100%);
   transition: filter 0.2s;
 }
+// .skills-list-item-vertical {
+//   width: 13%;
+// }
 
 .skills-list-item:hover {
   filter: grayscale(0%);
@@ -378,7 +384,9 @@ img {
 * FOOTER
 */
 footer {
-  height: 95px;
+  min-height: 95px;
+  position: relative;
+  bottom: 0;
 }
 
 /*
