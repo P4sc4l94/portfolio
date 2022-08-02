@@ -38,6 +38,11 @@ h2 {
   /* background-color: thistle; */
 }
 
+h2.inner-h2 {
+  font-weight: 500;
+  color: #0076a0;
+}
+
 h3 {
   font-family: "Zilla Slab", "Georgia", "Times New Roman", serif;
   font-weight: 500;
@@ -50,6 +55,10 @@ p {
   font-family: "Montserrat", Verdana, Arial, sans-serif;
   line-height: 1.75rem;
   letter-spacing: 0.05rem;
+}
+
+b {
+  font-weight: 700;
 }
 
 ul,
