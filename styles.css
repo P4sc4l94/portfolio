@@ -98,13 +98,15 @@ img {
 */
 
 .intro-container {
-  background-color: steelblue;
-  background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653950290/portfolio/bg-blueWave-600x800_z9m7rq.jpg");
+  background-color: #fff;
+  // background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653950290/portfolio/bg-blueWave-600x800_z9m7rq.jpg");
   background-size: cover;
   background-position: center bottom;
 }
 @media screen and (min-width: 600px) {
-  .intro-container { background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653950290/portfolio/bg-blueWave-960x960_kumrgc.jpg"); }
+  .intro-container { 
+    background-color: steelblue;
+    background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653950290/portfolio/bg-blueWave-960x960_kumrgc.jpg"); }
 }
 @media screen and (min-width: 960px) {
   .intro-container { background-image: url("https://res.cloudinary.com/dg92t6syv/image/upload/v1653950290/portfolio/bg-blueWave-1200x800_pjhy87.jpg"); }
@@ -121,12 +123,18 @@ img {
   /* background-color: thistle; */
 }
 
-.intro-txt-container {
-  background-color: whitesmoke;
-  border-radius: 20px;
-  padding: 20px;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
+// .intro-txt-container {
+  
+  
+// }
+@media screen and (min-width: 600px) {
+  .intro-txt-container {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
 }
 
 .cv-btn {
