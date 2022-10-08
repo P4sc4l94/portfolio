@@ -93,6 +93,13 @@ img {
   color: lightseagreen;
 }
 
+.mobile-only {
+  display: block;
+}
+@media screen and (min-width: 600px) {
+  .mobile-only { display: none;}
+}
+
 /*
 * INTRO SECTION
 */
